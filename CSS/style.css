@@ -1,0 +1,46 @@
+body{
+    background-color: lightgray;
+}
+
+#main-container{
+    min-height: 100vh;
+}
+.meal-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: transparent;
+    text-align: center;
+}
+#input-search-value{
+    border-radius: 15px;
+}
+.meal-search{
+    margin: 2rem 0;
+}
+.meal-search cite{
+    font-size: 1rem;
+}
+.meal-search-box{
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+}
+.meal-result{
+    margin-top: 4rem;
+}
+#meal{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin: 2.4rem 0;
+}
+.card:hover{
+    box-shadow: rgba(232, 7, 7, 0.25) 0px 54px 55px, rgba(232, 7, 7, 0.12) 0px -12px 30px, rgba(232, 7, 7, 0.12) 0px 4px 6px, rgba(232, 7, 7, 0.17) 0px 12px 13px, rgba(232, 7, 7, 0.09) 0px -3px 5px;
+}
+
+#detailspage-cards img{
+    margin-left: 25%;
+   height: 40%;
+   width: 50%;
+}
